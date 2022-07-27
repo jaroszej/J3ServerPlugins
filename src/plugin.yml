@@ -13,4 +13,5 @@ loadbefore:
 commands:
   position:
     description: Returns x, y, z coordinates of player
-    aliases: [pos, whereami]
+    usage: /<command> - optional args [player] [whisper (0), game chat (1)]
+    aliases: [pos, where]
