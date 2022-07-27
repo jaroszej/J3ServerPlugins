@@ -1,6 +1,6 @@
 main: dev.rosze.j3.Main
 name: J3ServerPlugins
-version: '1.0.0'
+version: '1.0.1'
 api-version: 1.13
 description: A group of custom plugins for the J3 Minecraft Server (2022)
 load: POSTWORLD
@@ -12,6 +12,6 @@ softdepend:
 loadbefore:
 commands:
   position:
-    description: Returns x, y, z coordinates of player
-    usage: /<command> - optional args [player] [whisper (0), game chat (1)]
+    description: Returns x, y, z coordinates of a player
+    usage: /<command> - optional args [player] [whisper (0), broadcast (1)]
     aliases: [pos, where]
