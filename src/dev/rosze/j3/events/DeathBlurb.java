@@ -4,7 +4,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
 import java.text.DecimalFormat;
@@ -37,7 +36,7 @@ public class DeathBlurb implements Listener {
         Player player = e.getEntity();
 
         int level = player.getLevel();
-        System.out.println(player.getExp());
+
         int levelEXP = expTable[level];
 
         // float exp = Float.parseFloat(df.format(levelEXP + getExpConversion(level, player.getExp())));
