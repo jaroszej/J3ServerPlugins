@@ -11,7 +11,7 @@ public class WelcomeMessage implements Listener {
     @EventHandler
     public static void onPlayerJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
-        player.sendMessage(ChatColor.RED + "Welcome back, " + player.getName() + "!");
+        e.setJoinMessage(ChatColor.RED + "<J3> Welcome back, " + player.getName() + "!");
     }
 
 }

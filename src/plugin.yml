@@ -1,6 +1,6 @@
 main: dev.rosze.j3.Main
 name: J3ServerPlugins
-version: '1.0.1'
+version: '1.0.2'
 api-version: 1.13
 description: A group of custom plugins for the J3 Minecraft Server (2022)
 load: POSTWORLD
